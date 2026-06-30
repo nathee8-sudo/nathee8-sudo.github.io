@@ -101,13 +101,19 @@ Commands used included:
 tcpdump -i eth0
 ```
 
+![tcpdump eth0 Capture](8.jpg)
+
 ```bash
 tcpdump -i any
 ```
 
+![tcpdump Any Interface Capture](9.jpg)
+
 ```bash
 tcpdump -i any -c 5
 ```
+
+![tcpdump 5 Packet Limit](10.jpg)
 
 These captures demonstrated how tcpdump can monitor live network traffic and limit captures to specific numbers of packets.
 
