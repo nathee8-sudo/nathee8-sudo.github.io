@@ -73,17 +73,7 @@ Connectivity between the Kali Linux and Windows virtual machines was verified us
 
 ---
 
-## Part 2 – Network Configuration in Windows
-
-Windows networking tools were used to examine network adapter settings and configure DNS using PowerShell.
-
-### Network Adapter Configuration
-
-The `ncpa.cpl` utility was used to review the IPv4 configuration of the active network adapter. Windows PowerShell and the `netsh` command were then used to configure a static DNS server, demonstrating an alternative method of managing network settings through the command line.
-
----
-
-## Part 3 – Capturing Traffic with tcpdump
+## Part 2 – Capturing Traffic with tcpdump
 
 Traffic capture was performed using **tcpdump** within the Kali Linux virtual machine.
 
@@ -135,7 +125,7 @@ Additional filtering techniques using source, destination and logical operators 
 
 ---
 
-## Part 4 – Packet Analysis with Wireshark
+## Part 3 – Packet Analysis with Wireshark
 
 Captured traffic was examined using Wireshark to better understand network communications between virtual machines.
 
