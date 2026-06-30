@@ -65,6 +65,12 @@ The `/etc/hosts` file was modified to create a local hostname entry for the Wind
 
 Connectivity between the Kali Linux and Windows virtual machines was verified using ICMP echo requests (`ping`). Successful replies confirmed that hostname resolution and network communication were functioning correctly.
 
+![Ping Test 1](4.jpg)
+
+![Ping Test 2](5.jpg)
+
+![Ping Test 3](6.jpg)
+
 ---
 
 ## Part 2 – Network Configuration in Windows
