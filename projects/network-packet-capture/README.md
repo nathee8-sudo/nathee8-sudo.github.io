@@ -55,6 +55,10 @@ The `ip a` command was used to identify available network interfaces, including 
 
 The `/etc/hosts` file was modified to create a local hostname entry for the Windows virtual machine. This allowed communication using a hostname rather than an IP address, demonstrating how local hostname resolution functions within Linux.
 
+![Hostname Resolution Setup](2.jpg)
+
+![Hosts File Configuration](3.jpg)
+
 ---
 
 ### Connectivity Testing
