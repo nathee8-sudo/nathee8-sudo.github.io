@@ -47,9 +47,15 @@ Linux networking commands were used to explore the system's network configuratio
 
 The `ip a` command was used to identify available network interfaces, including assigned IP addresses, MAC addresses and subnet information. This information was used to determine the active network adapter for packet capture.
 
+![Network Interfaces](1.jpg)
+
+---
+
 ### Hostname Resolution
 
 The `/etc/hosts` file was modified to create a local hostname entry for the Windows virtual machine. This allowed communication using a hostname rather than an IP address, demonstrating how local hostname resolution functions within Linux.
+
+---
 
 ### Connectivity Testing
 
@@ -81,6 +87,8 @@ tcpdump -D
 
 This confirmed the available interfaces prior to beginning packet capture.
 
+---
+
 ### Capturing Network Traffic
 
 Traffic was captured on individual interfaces and across all interfaces using various tcpdump options.
@@ -100,6 +108,8 @@ tcpdump -i any -c 5
 ```
 
 These captures demonstrated how tcpdump can monitor live network traffic and limit captures to specific numbers of packets.
+
+---
 
 ### Filtering Traffic
 
