@@ -85,6 +85,8 @@ Available capture interfaces were identified using:
 tcpdump -D
 ```
 
+![tcpdump Interface Listing](7.jpg)
+
 This confirmed the available interfaces prior to beginning packet capture.
 
 ---
