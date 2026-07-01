@@ -202,6 +202,7 @@ Test HTTPS:
 ```
 https://SERVER_IP
 ```
+![HTTPS Test](21.jpg)
 
 5. Apache Hardening
 
