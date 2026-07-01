@@ -174,12 +174,16 @@ Edit SSL config:
 sudo nano /etc/apache2/sites-available/default-ssl.conf
 ```
 
+![Edit SSL config - 17](17.jpg)
+
 Set:
 
 ```
 SSLCertificateFile /etc/apache2/selfsignedcerts/certificate.crt
 SSLCertificateKeyFile /etc/apache2/selfsignedcerts/pair.key
 ```
+
+![SSL certificate paths - 18](18.jpg)
 
 Enable SSL:
 
@@ -188,6 +192,10 @@ sudo a2enmod ssl
 sudo a2ensite default-ssl.conf
 sudo systemctl restart apache2
 ```
+
+![Enable SSL - 19](19.jpg)
+
+![Restart Apache - 20](20.jpg)
 
 Test HTTPS:
 
@@ -238,49 +246,4 @@ Before Hardening
 Apache version & OS details were visible:
 
 ```
-Apache/2.x.x (Ubuntu)
-Open ports: 80, 443
-```
-
-After Hardening
-
-Fingerprinting reduced:
-
-```
-Apache version hidden
-Server tokens minimized
-TRACE disabled
-```
-
-This confirms the hardening was effective.
-
-📘 Lessons Learned
-
-- HTTPS is essential for secure communication
-- Self-signed certificates are useful for testing environments
-- UFW provides simple but effective firewall control
-- Apache exposes sensitive information by default
-- Hardening significantly reduces attack surface
-- ModSecurity adds WAF protection
-- ModEvasive helps mitigate DDoS attempts
-- Nmap is a powerful validation tool
-
-🔧 Future Improvements
-
-- Replace self-signed certificate with a CA-issued certificate
-- Deploy on a cloud VM (Azure or AWS)
-- Add automated configuration using Ansible
-- Implement fail2ban for SSH protection
-- Add logging and monitoring (Elastic Stack or Grafana)
-
-📄 Conclusion
-
-This project demonstrates practical experience in deploying and securing a Linux-based web server.
-It highlights core skills required for cloud, IT support, and cybersecurity roles, including:
-
-- Linux administration
-- Web server configuration
-- PKI & SSL/TLS
-- Firewall management
-- Security hardening
-- Vulnerability scanning
+{
