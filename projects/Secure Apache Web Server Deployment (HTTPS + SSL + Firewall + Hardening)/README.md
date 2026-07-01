@@ -112,6 +112,22 @@ To deny HTTP:
 sudo ufw deny 80/tcp
 ```
 
+UFW screenshots
+
+![UFW Rules - 3](3.jpg)
+
+![UFW Rules - 4](4.jpg)
+
+![UFW Rules - 5](5.jpg)
+
+![UFW Rules - 6](6.jpg)
+
+![UFW Rules - 7](7.jpg)
+
+![UFW Rules - 8](8.jpg)
+
+![UFW Rules - 9](9.jpg)
+
 3. Generate SSL Certificate (OpenSSL)
 
 Generate RSA key pair
