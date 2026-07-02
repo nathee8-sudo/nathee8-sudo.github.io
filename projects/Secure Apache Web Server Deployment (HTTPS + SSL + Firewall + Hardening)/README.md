@@ -246,6 +246,10 @@ sudo apt-get install libapache2-mod-evasive -y
 sudo systemctl restart apache2
 ```
 
+![Postfix configuration during ModEvasive install](../../27.jpg)
+
+Postfix configuration screen displayed during the installation of libapache2-mod-evasive. The Internet Site option was selected as recommended to complete the installation and support email-based alert notifications.
+
 🔍 Security Validation (Nmap)
 
 Nmap scan — before hardening:
