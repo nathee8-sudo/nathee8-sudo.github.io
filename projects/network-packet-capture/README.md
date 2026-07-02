@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the configuration of a VirtualBox home lab to capture and analyse network traffic using both Linux and Windows operating systems. Network interfaces were configured, connectivity between virtual machines was verified, and traffic was captured using **tcpdump** and **Wireshark** to develop practical packet analysis and troubleshooting skills.
+This project demonstrates the configuration of a VirtualBox home lab to capture and analyse network traffic using both Linux and Windows operating systems. Network interfaces were configured, conne[...]
 
 ---
 
@@ -45,7 +45,7 @@ Linux networking commands were used to explore the system's network configuratio
 
 ### Viewing Network Interfaces
 
-The `ip a` command was used to identify available network interfaces, including assigned IP addresses, MAC addresses and subnet information. This information was used to determine the active network adapter for packet capture.
+The `ip a` command was used to identify available network interfaces, including assigned IP addresses, MAC addresses and subnet information. This information was used to determine the active netwo[...]
 
 ![Network Interfaces](1.jpg)
 
@@ -53,7 +53,7 @@ The `ip a` command was used to identify available network interfaces, including 
 
 ### Hostname Resolution
 
-The `/etc/hosts` file was modified to create a local hostname entry for the Windows virtual machine. This allowed communication using a hostname rather than an IP address, demonstrating how local hostname resolution functions within Linux.
+The `/etc/hosts` file was modified to create a local hostname entry for the Windows virtual machine. This allowed communication using a hostname rather than an IP address, demonstrating how local [...]
 
 ![Hostname Resolution Setup](2.jpg)
 
@@ -63,7 +63,7 @@ The `/etc/hosts` file was modified to create a local hostname entry for the Wind
 
 ### Connectivity Testing
 
-Connectivity between the Kali Linux and Windows virtual machines was verified using ICMP echo requests (`ping`). Successful replies confirmed that hostname resolution and network communication were functioning correctly.
+Connectivity between the Kali Linux and Windows virtual machines was verified using ICMP echo requests (`ping`). Successful replies confirmed that hostname resolution and network communication wer[...]
 
 ![Ping Test 1](4.jpg)
 
@@ -131,6 +131,8 @@ tcpdump -i any host <IP_Address>
 
 Additional filtering techniques using source, destination and logical operators were explored to reduce unnecessary traffic and focus packet analysis.
 
+![tcpdump Filtering Example](28.jpg)
+
 ---
 
 ## Part 3 – Packet Analysis with Wireshark
@@ -143,7 +145,7 @@ Packet analysis included identifying common protocols such as:
 - **DNS** (Domain Name System)
 - **TCP** (Transmission Control Protocol)
 
-Wireshark provided detailed packet information including source and destination addresses, protocol types and packet contents, demonstrating how captured traffic can be analysed during network troubleshooting.
+Wireshark provided detailed packet information including source and destination addresses, protocol types and packet contents, demonstrating how captured traffic can be analysed during network tr[...]
 
 ![Wireshark Packet Analysis 1](11.jpg)
 
@@ -168,6 +170,6 @@ Wireshark provided detailed packet information including source and destination 
 
 ## Key Takeaways
 
-This project provided practical experience configuring virtual machine networking, capturing live traffic and analysing network packets using industry-standard tools. Working with both **tcpdump** and **Wireshark** strengthened my understanding of packet capture techniques, protocol analysis and troubleshooting methods commonly used in IT support and cybersecurity environments.
+This project provided practical experience configuring virtual machine networking, capturing live traffic and analysing network packets using industry-standard tools. Working with both **tcpdump*[...]
 
 The ability to capture and analyze network traffic is fundamental to network security, incident response, and troubleshooting—critical skills for any cybersecurity professional.
