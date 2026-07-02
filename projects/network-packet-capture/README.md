@@ -131,7 +131,7 @@ tcpdump -i any host <IP_Address>
 
 Additional filtering techniques using source, destination and logical operators were explored to reduce unnecessary traffic and focus packet analysis.
 
-![tcpdump Filtering Example](28.jpg)
+![tcpdump Filtering Example](/28.jpg)
 
 ---
 
