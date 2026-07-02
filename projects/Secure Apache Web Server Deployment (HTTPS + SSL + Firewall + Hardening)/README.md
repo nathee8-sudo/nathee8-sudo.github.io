@@ -220,9 +220,9 @@ ServerTokens Prod
 TraceEnable Off
 ```
 
-![Security config - ServerSignature/ServerTokens/TraceEnable](22.jpg)
+![Security config - ServerSignature/ServerTokens/TraceEnable](../../22.jpg)
 
-![Security validation - Trace disabled / headers](23.jpg)
+![Security validation - Trace disabled / headers](../../23.jpg)
 
 Restart:
 
