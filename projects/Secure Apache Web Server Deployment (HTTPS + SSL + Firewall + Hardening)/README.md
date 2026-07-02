@@ -246,15 +246,15 @@ sudo apt-get install libapache2-mod-evasive -y
 sudo systemctl restart apache2
 ```
 
-![ModEvasive install/output - 25](../../25.jpg)
-
-![ModEvasive config/output - 26](../../26.jpg)
-
 🔍 Security Validation (Nmap)
 
 Before Hardening
 
 Apache version & OS details were visible:
+
+![ModEvasive install/output - 25](../../25.jpg)
+
+![ModEvasive config/output - 26](../../26.jpg)
 
 ```
 {
