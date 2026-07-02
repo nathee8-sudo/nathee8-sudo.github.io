@@ -237,12 +237,18 @@ sudo apt-get install libapache2-mod-security2 -y
 sudo systemctl restart apache2
 ```
 
+![ModSecurity install/output](../../24.jpg)
+
 7. Install ModEvasive (Anti‑DDoS)
 
 ```bash
 sudo apt-get install libapache2-mod-evasive -y
 sudo systemctl restart apache2
 ```
+
+![ModEvasive install/output - 25](../../25.jpg)
+
+![ModEvasive config/output - 26](../../26.jpg)
 
 🔍 Security Validation (Nmap)
 
